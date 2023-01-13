@@ -2,7 +2,7 @@
 
 const mongoose = require("mongoose");
 const Drone = require("../models/Drone.model");
-const MONGODB_URI = "mongodb://localhost:27017/dear-santa";
+const MONGODB_URI = "mongodb://localhost:27017/lab-express-drones";
 mongoose.set('strictQuery', true);
 
 const drones = [
